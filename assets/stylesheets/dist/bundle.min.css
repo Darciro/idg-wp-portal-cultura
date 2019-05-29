@@ -10619,8 +10619,7 @@ table td {
         display: block; }
       #vale-cultura #beneficios .box .text ul {
         margin: 0;
-        padding: 0;
-        list-style: none; }
+        padding: 0 0 0 18px; }
         #vale-cultura #beneficios .box .text ul li {
           margin-top: 10px; }
           #vale-cultura #beneficios .box .text ul li:first-child {

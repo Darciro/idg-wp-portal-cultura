@@ -52,7 +52,7 @@
           <li><a class="scrollLink" href="#como-funciona">Como Funciona</a></li>
           <li><a class="scrollLink" href="#onde-cadastrar">Onde Cadastrar</a></li>
           <li><a class="scrollLink" href="#beneficios">Benefícios</a></li>
-          <!-- <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li> -->
+          <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li>
           <li><a class="scrollLink" href="#saiba-mais">Saiba Mais</a></li>
           <li><a class="scrollLink" href="#perguntas-frequentes">Perguntas Frequentes</a></li>
         </ul>
@@ -99,10 +99,10 @@
           <p>Primeiro, você deverá identificar qual o seu perfil no programa:</p>
 
           <ul>
-            <li>Beneficiária: Empresa que deseja conceder o benefício para seus trabalhadores, devidamente cadastrada no programa; saiba mais:</li>
-            <li>Operadora: Empresa cadastrada no programa e autorizada a emitir o cartão; saiba mais:</li>
-            <li>Recebedora: Empresa habilitada por operadora cuja atividade econômica e produtos constem da lista do programa; saiba mais:</li>
-            <li>Usuário: Trabalhador com vínculo empregatício com a beneficiária. saiba mais:</li>
+            <li>Beneficiária: Empresa que deseja conceder o benefício para seus trabalhadores, devidamente cadastrada no programa; <a href="http://cultura.gov.br/vale-cultura/para-a-empresa-beneficiaria/">saiba mais</a>:</li>
+            <li>Operadora: Empresa cadastrada no programa e autorizada a emitir o cartão; <a href="http://cultura.gov.br/vale-cultura/para-empresas-recebedoras/">saiba mais</a>:</li>
+            <li>Recebedora: Empresa habilitada por operadora cuja atividade econômica e produtos constem da lista do programa; <a href="http://cultura.gov.br/vale-cultura/para-as-operadoras/">saiba mais</a>:</li>
+            <li>Usuário: Trabalhador com vínculo empregatício com a beneficiária. <a href="http://cultura.gov.br/vale-cultura/para-o-trabalhador/">saiba mais</a>:</li>
           </ul>
 
           <p>Após identificar o seu perfil, somente as beneficiárias e operadoras deverão se cadastrar no sistema do <a href="http://vale.cultura.gov.br/" target="_blank">Vale-Cultura</a>.</p>
@@ -198,45 +198,6 @@
       </div>
     </section>
 
-<!--     <section class="pt-5 pb-5" id="depoimentos">
-      <div class="container">
-        <h2 class="section-title mb-5 text-center">Depoimentos</h2>
-        <div class="row">
-          <div class="overflow-wrapper">
-              <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
-                  <div class="box-body">
-                    <span class="cat">Lorem Ipsum</span>
-                    <h3 class="box-title">
-                      <a href="#this">Dolor sit amet</a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
-                  <div class="box-body">
-                    <span class="cat">Lorem Ipsum</span>
-                    <h3 class="box-title">
-                      <a href="#this">Dolor sit amet</a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
-                  <div class="box-body">
-                    <span class="cat">Lorem Ipsum</span>
-                    <h3 class="box-title">
-                      <a href="#this">Dolor sit amet</a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <section class="pt-5 pb-5" id="saiba-mais">
       <div class="container">
@@ -244,7 +205,7 @@
         <div class="row">
           <div class="overflow-wrapper">
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-a-empresa-beneficiaria/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-a-empresa-beneficiaria/" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_beneficiarios-01.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Beneficiária</h3>
@@ -254,7 +215,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-empresas-recebedoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-empresas-recebedoras/" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_estabelecimento_comercial.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Estabelecimento</h3>
@@ -264,7 +225,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-o-trabalhador/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-o-trabalhador/" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/5_trabalhador.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Trabalhador</h3>
@@ -274,7 +235,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-as-operadoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-as-operadoras/" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_operadoras.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Operadora</h3>
@@ -287,7 +248,63 @@
       </div>
     </section>
 
-    <section class="pt-5 pb-5 bg-grey-2" id="perguntas-frequentes">
+    <section id="depoimentos" class="mt-5 video-gallery">
+       <div class="container">
+        <h2 class="section-title mb-5 text-center">Depoimentos</h2>
+
+          <div class="row">
+             <div id="video-box" class="highlight video">
+                <iframe src="https://www.youtube.com/embed/LrEoT7Uq4o4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+
+             <div id="idg_banner-3" class="container widget_idg_banner">
+                <div class="row">
+                   <div class="col order-1">
+                     <div class="highlight-box active" data-video-src="LrEoT7Uq4o4">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Cinema
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-2">
+                     <div class="highlight-box" data-video-src="ZEDmrqlJeRw">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Música
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-3">
+                     <div class="highlight-box" data-video-src="h-4EfNZCaHw">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Teatro
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-3">
+                     <div class="highlight-box" data-video-src="kwDgJQF0XCE">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Jose Paulo Martins
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="perguntas-frequentes">
       <div class="container">
         <h2 class="section-title mb-5 text-center">Perguntas Frequentes</h2>
 

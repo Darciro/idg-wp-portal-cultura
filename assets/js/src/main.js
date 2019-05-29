@@ -11,6 +11,7 @@
 			this.carousel();
 			this.scrollToAnchor();
 			this.multimedia();
+			this.videoGallery();
 		},
 
 		/**
@@ -195,6 +196,24 @@
 
 				$('#multimidia .highlight').addClass('highlight-video-player').html(iFrameCode);
 
+			})
+		},
+
+		videoGallery: function() {
+			$('.video-gallery .highlight-box').each( function() {
+				$(this).click(function(e) {
+					e.preventDefault();
+
+					var vID = $(this).data('video-src'),
+						vidWidth = 1150,
+						vidHeight = 530;
+
+					var iFrameCode = '<iframe class="idg-video-player" scrolling="no" allowtransparency="true" allowfullscreen="true" src="https://www.youtube.com/embed/'+  vID +'?rel=0&wmode=transparent&showinfo=0&autoplay=1" frameborder="0" allow="autoplay"></iframe>';
+
+					$('.video-gallery #video-box').empty().html(iFrameCode);
+					$('.video-gallery .highlight-box.active').removeClass('active');
+					$(this).addClass('active');
+				})
 			})
 		}
 	};

@@ -27,10 +27,10 @@
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-1.jpg">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-1.jpg?2">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-2.jpg" alt="Third slide">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-2.jpg?2" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

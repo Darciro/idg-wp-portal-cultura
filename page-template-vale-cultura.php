@@ -27,10 +27,10 @@
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-1.jpg?2">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-1.jpg">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-2.jpg?2" alt="Third slide">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-2.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -128,7 +128,7 @@
           <h2 class="section-title mb-5">Onde cadastrar?</h2>
 
           <ul>
-            <li>Acesse o sistema do <a href="http://vale.cultura.gov.br" target="_blank">Vale-Cultura</a></li>
+            <li>Acesse o sistema do <a href="http://vale.cultura.gov.br" target="_blank">Vale-Cultura</a></li>
             <li>No menu, clique no link "Cadastrar Beneficiária" ou Cadastrar Operadora”;</li>
             <li>Preencha o formulário com os dados solicitados.</li>
             <li>Salvar e encaminhar para análise</li>
@@ -352,7 +352,7 @@
 
             <div id="collapse-4" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Sim. Apenas não poderão deduzir o valor do benefício em até 1% no imposto de renda devido. No entanto, isso não impede que participem do programa e façam jus aos benefícios sociais e trabalhistas concedidos a todas as empresas.  Lembrando que a adesão e concessão do benefício é facultativa. </p>
+                <p>Sim. Apenas não poderão deduzir o valor do benefício em até 1% no imposto de renda devido. No entanto, isso não impede que participem do programa e façam jus aos benefícios sociais e trabalhistas concedidos a todas as empresas.  Lembrando que a adesão e concessão do benefício é facultativa. </p>
               </div>
             </div>
           </div>
@@ -388,7 +388,7 @@
 
             <div id="collapse-7" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Procure uma das Operadoras do Programa e solicite a habilitação de seu estabelecimento comercial. Confira <a href="http://vale.cultura.gov.br/" target="_blank">aqui</a> a lista de Operadoras que podem habilitar sua empresa.</p>
+                <p>Procure uma das Operadoras do Programa e solicite a habilitação de seu estabelecimento comercial. Confira <a href="http://vale.cultura.gov.br/" target="_blank">aqui</a> a lista de Operadoras que podem habilitar sua empresa.</p>
               </div>
             </div>
           </div>
@@ -424,7 +424,7 @@
 
             <div id="collapse-10" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
               <div class="card-body">
-                <p>Incentivar a vida cultural de seus trabalhadores é também colaborar para ressignificar o sentido do trabalho, reconhecendo a contribuição de cada indivíduo para o desenvolvimento da empresa e de todo o país. Ganha-se na satisfação e na motivação do funcionário, no poder de sua atuação, no relacionamento com o corpo funcional, na qualificação da equipe e no protagonismo de uma intervenção social importante para a sociedade brasileira. As empresas que fornecem o Vale-Cultura aos seus empregados, chamadas de "empresas beneficiárias", podem ainda usufruir de incentivos conferidos pelo Governo Federal. O valor despendido com o Vale-Cultura não constitui base de incidência de contribuição previdenciária ou do FGTS, não integra o salário de contribuição e é isento do imposto sobre a renda das pessoas físicas. Isso sem contar o benefício maior, de ver os resultados do investimento feito no seu empregado.</p>
+                <p>Incentivar a vida cultural de seus trabalhadores é também colaborar para ressignificar o sentido do trabalho, reconhecendo a contribuição de cada indivíduo para o desenvolvimento da empresa e de todo o país. Ganha-se na satisfação e na motivação do funcionário, no poder de sua atuação, no relacionamento com o corpo funcional, na qualificação da equipe e no protagonismo de uma intervenção social importante para a sociedade brasileira. As empresas que fornecem o Vale-Cultura aos seus empregados, chamadas de "empresas beneficiárias", podem ainda usufruir de incentivos conferidos pelo Governo Federal. O valor despendido com o Vale-Cultura não constitui base de incidência de contribuição previdenciária ou do FGTS, não integra o salário de contribuição e é isento do imposto sobre a renda das pessoas físicas. Isso sem contar o benefício maior, de ver os resultados do investimento feito no seu empregado.</p>
               </div>
             </div>
           </div>
@@ -499,5 +499,4 @@
 </main>
 
 <?php get_footer(); ?>
-
 

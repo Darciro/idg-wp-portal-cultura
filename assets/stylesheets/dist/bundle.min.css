@@ -7721,7 +7721,8 @@ body.page #main-single {
 
 table.wp-block-table {
   border: 1px solid #CCC;
-  background: #FFF; }
+  background: #FFF;
+  margin-bottom: 1rem; }
 
 table th {
   width: 25%;
@@ -7941,6 +7942,150 @@ table td {
 
 .align-center {
   align-items: center; }
+
+.video-gallery {
+  overflow: hidden;
+  background-color: #222;
+  padding: 60px 0;
+  color: #FFFFFF; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  .video-gallery {
+    border-top: 1px solid #222222;
+    padding: 0;
+    background-size: 30px auto;
+    font-size: 0; }
+    .video-gallery .container {
+      padding: 0; }
+      .video-gallery .container .row {
+        padding: 0;
+        margin: 0; }
+        .video-gallery .container .row .col {
+          padding: 0;
+          margin: 0;
+          display: block; }
+      .video-gallery .container .widget_idg_banner {
+        padding: 15px; }
+        .video-gallery .container .widget_idg_banner .row {
+          display: grid;
+          grid-template-columns: auto auto;
+          grid-gap: 15px; }
+          .video-gallery .container .widget_idg_banner .row .col:nth-child(3) {
+            grid-column-start: 1;
+            grid-column-end: 3; } }
+  .video-gallery .highlight {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    background-size: cover !important;
+    display: table;
+    position: relative;
+    background: #E5E5E5; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  .video-gallery .highlight {
+    width: 100%;
+    padding: 0;
+    display: block;
+    height: 350px;
+    margin-bottom: 0; } }
+    .video-gallery .highlight.video {
+      display: flex;
+      padding: 0;
+      background: #000; }
+      .video-gallery .highlight.video iframe {
+        width: 100%;
+        height: 100%; }
+    .video-gallery .highlight > a {
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 65%;
+      color: #FFFFFF;
+      position: relative; }
+      .video-gallery .highlight > a:hover {
+        text-decoration: none; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  .video-gallery .highlight > a {
+    display: table;
+    padding: 0;
+    height: 100%; }
+    .video-gallery .highlight > a .align {
+      display: table-cell;
+      vertical-align: bottom; }
+      .video-gallery .highlight > a .align .text {
+        padding: 15px;
+        position: relative;
+        z-index: 0; }
+        .video-gallery .highlight > a .align .text:before {
+          content: "";
+          width: 100%;
+          height: calc(100% + 30px);
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: -1; }
+    .video-gallery .highlight > a h3 {
+      font-size: 1.2rem;
+      display: block; }
+    .video-gallery .highlight > a span {
+      display: block;
+      font-size: 0.8rem;
+      line-height: normal; } }
+  .video-gallery .highlight-box {
+    transition: all ease-in-out 0.2s;
+    height: 215px;
+    position: relative;
+    overflow: visible;
+    background: #222;
+    color: #FFF;
+    border: 1px solid #FFF;
+    cursor: pointer; }
+    @media screen and (prefers-reduced-motion: reduce) {
+      .video-gallery .highlight-box {
+        transition: none; } }
+    .video-gallery .highlight-box:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 15px solid #FFF;
+      position: absolute;
+      transform: translateY(-100%) translateX(-50%);
+      top: 0;
+      left: 50%;
+      display: none; }
+    .video-gallery .highlight-box:hover {
+      opacity: .5; }
+    .video-gallery .highlight-box.active {
+      background: #FFF;
+      color: #222;
+      border: 1px solid #FFF; }
+      .video-gallery .highlight-box.active:before {
+        display: block; }
+      .video-gallery .highlight-box.active h3 {
+        color: #222; }
+      .video-gallery .highlight-box.active:hover {
+        opacity: 1; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  .video-gallery .highlight-box {
+    height: 150px;
+    background-size: contain !important; } }
+    .video-gallery .highlight-box .box-body {
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      .video-gallery .highlight-box .box-body h3 {
+        margin: 0; }
+  .video-gallery #play-multimedia-video {
+    display: none; }
 
 .btn,
 .wpcf7-submit {
@@ -10638,7 +10783,8 @@ table td {
     height: 257px; }
     #vale-cultura #saiba-mais .highlight-box .cat {
       display: block;
-      font-size: .8rem; }
+      font-size: .8rem;
+      text-transform: none; }
     #vale-cultura #saiba-mais .highlight-box:before {
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
       height: 70%;

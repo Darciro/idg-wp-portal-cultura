@@ -55,7 +55,7 @@
           <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li>
           <li><a class="scrollLink" href="#saiba-mais">Saiba Mais</a></li>
           <li><a class="scrollLink" href="#perguntas-frequentes">Perguntas Frequentes</a></li>
-          <li><a class="scrollLink" href="#acesso-rapido">Acesso Rápido</a></li>
+          <li><a class="scrollLink" href="#acesso-direto">Acesso Direto</a></li>
         </ul>
       </div>
     </div>
